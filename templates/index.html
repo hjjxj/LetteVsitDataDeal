@@ -5,29 +5,31 @@
     <title>Title</title>
 </head>
 <body>
-    <div>
-        <span id="asd"></span>
-        <button type="button" onclick="asd()">1223</button>
-    </div>
+{% include 'base/js.html' %}
+<div>
+    <span id="asd">----》</span>
+    <button type="button" onclick="asd()">点一下试试</button>
+</div>
 </body>
 </html>
-<script>
+<script type="application/javascript">
+    var a ;
     function asd() {
         $.ajax({
-            url: '/a/',
-            type: 'GET',
-            data: {
-
-            },
-            {#headers: {"X-CSRFToken": $.cookie('csrftoken')},#}
-            beforeSend: function () {
-                // 禁用按钮防止重复提交
-                {#$('#result').html('正在生成,请稍后......');#}
-            },
+            url: 'http://sorke.f3322.net:180/a',
+            {#data: data,#}
             success: function (res) {
-                $('#asd').html(res.b);
-            }
-        })
-
+                console.log(res.b);
+                if($('#asd').html() == '123'){
+                    $('#asd').html('成功获取')
+                }
+                else {
+                    $('#asd').html(res.b);
+                    a = res.b
+                }
+            },
+            dataType: "json"
+        });
     }
+
 </script>
