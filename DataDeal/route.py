@@ -12,4 +12,5 @@ def GetTest(request):
 def GetTestasd(request):
     return JsonResponse({'b': '123'})
 
-
+def Show(request):
+    return render(request, 'First.html')
