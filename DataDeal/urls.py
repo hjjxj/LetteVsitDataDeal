@@ -16,7 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from DataDealApp.views import GetTest, GetTestasd
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', GetTest),
