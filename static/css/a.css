@@ -1,0 +1,43 @@
+.f_one .f_second p{
+    font-size: 20px;
+    text-align: center;
+}
+.c1{
+    height: 50px;
+}
+.c3{
+    height: 70px;
+}
+.c2{
+    height:70px
+}
+.c4{
+    height: 30px;
+}
+.d1 input, .d2 input, .d3 input{
+    text-align: center;
+    border: 1px solid #b2dba1;
+    height: 50px;
+}
+.d3 input{
+    width: 174px;
+    display: block;
+    background-color: #2aabd2;
+}
+.d4 h1 {
+   padding-left: 25px;
+
+}
+.e1{
+    margin: 0 auto;
+    text-align: center;
+}
+.d6{
+    background-color: rgba(0,0,0,0.1);
+}
+.d5{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+}
