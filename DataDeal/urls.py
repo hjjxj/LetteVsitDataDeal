@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from DataDeal.route import GetTest, GetTestasd, Show
+from DataDeal.route import GetTest, GetTestasd, Show, Jinlu, a
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', GetTest),
-    path('a/', GetTestasd, name='a'),
-    path('First/', Show)
+    path('a/', a),
+    path('First/', Show),
+    path('jinlu/', Jinlu)
 ]
