@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding:0;
+}
 .f_one .f_second p{
     font-size: 20px;
     text-align: center;
@@ -40,4 +44,31 @@
     width: 500px;
     height: 500px;
     border: 1px solid red;
+}
+.d8{
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    border: 1px solid red;
+}
+caption,td{
+    text-align: center;;
+}
+.d9{
+    background-color: #222222;
+}
+.d9 ul{
+    padding-bottom: 10px;
+    list-style: none;
+    text-align: center;
+}
+.d9 ul li{
+    margin-top: 10px;
+}
+.d9 ul li a{
+    color: #8D9D9D;
+    text-decoration: none;
+}
+.d10 label{
+    margin-right: 10px;
 }
