@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+
+}
+.tijiao{
+    height: 130px;
+    padding-top : 30px;
+}
+.tijiao span{
+    display: block;
+    margin-left: 200px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+fieldset {
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+#addr-show, #addr-show02,#addr-show03{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #aaa;
+    margin: 0 20px;
+}
+.btn:disabled{
+    background-color:#ccc;
+}
+select {
+    width: 120px;
+    height: 30px;
+}
+table{
+    background-color: #F7F7F9;
+    width: 1000px;
+    margin: 0 auto;
+}
+th,td{
+    width: 250px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.tab{
+    width: 1020px;
+    margin: 30px auto 0;
+    overflow-y:auto;
+}
+
+td div {
+    overflow-y: scroll;
+    height: 50px;
+}
+
+.tab, td div::-webkit-scrollbar-track-piece {
+/ / 滚动条凹槽的颜色，还可以设置边框属性 background-color: #f8f8f8;
+}
+
+.tab, td div::-webkit-scrollbar {
+/ / 滚动条的宽度 width: 9 px;
+    height: 9px;
+}
+
+.tab, td div::-webkit-scrollbar-thumb {
+/ / 滚动条的设置 background-color: #dddddd;
+    background-clip: padding-box;
+    min-height: 500px;
+}
+/*.tab,td div::-webkit-scrollbar-thumb:hover {
+    background-color: #bbb;
+}*/
