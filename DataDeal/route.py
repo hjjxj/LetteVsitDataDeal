@@ -21,6 +21,8 @@ def Show(request):
 def Jinlu(request):
     return render(request, 'jinlu.html')
 
+def find(request):
+    return render(request, 'find.html')
 
 def a(request):
     content = {
